@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* HEADER */
+.hero {
+    width: 100%;
+    height: 50svh;
+    object-fit: cover;
+    background-image: url(https://estaticos-cdn.elperiodico.com/clip/dc892013-b2a9-485f-a5e9-4083722b0a5f_alta-libre-aspect-ratio_default_0.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 1px 1px black;
+}
+
+.hero-title {
+    position: absolute;
+    color: white;
+}
+.info {
+    background-color: rgba(196, 196, 168, 0.909);
+}
+/* SEC */
+
+.info {
+    padding: 5%;
+}
+
+/* ofertas */
+.ofertas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(145, 141, 141, 0.781);
+    padding: 5%;
+    padding-top: 2%;
+}
+/* GALERIA */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(227, 225, 225, 0.781);
+    padding: 5%;
+    padding-top: 2%;
+}
+
+.gallery-img {
+    border: 1px white solid;
+    border-radius: 5px;
+    object-fit: cover;
+    width: 250px;
+    margin: 10px;
+    height: 150px;
+}
+
+.gallery-img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 10;
+}
+.gallery-img2 {
+    border: 1px white solid;
+    border-radius: 5px;
+}
+.gallery-img2:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+/* FOOT */
+
+footer {
+    padding: 1%;
+    min-height: 20svh;
+    background-color: gray;
+
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+a{
+
+    text-decoration: none;
+}
